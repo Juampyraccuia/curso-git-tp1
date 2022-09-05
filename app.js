@@ -19,7 +19,11 @@ function getCountryByIso3(isoCode){
  * @returns {string}
  */
 function getCountryTranslatedName(isoCode, language){
-    //Complete with your code
+    for (let index = 0; index< countries.length;index ++){
+        if (countries[index].iso3 === isoCode || countries[index].translations === language){
+            return countries[index].translations;
+        };
+    }
 }
 /**Get an array of all the countries with the specified subregion
  * @param  {string} subregion
