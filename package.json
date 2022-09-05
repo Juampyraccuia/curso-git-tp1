@@ -1,0 +1,20 @@
+{
+  "name": "tpn1",
+  "version": "1.0.0",
+  "description": "Trabajo practico N°1",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juampyraccuia/curso-git-tp1.git"
+  },
+  "author": "Juan pablo Raccuia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juampyraccuia/curso-git-tp1/issues"
+  },
+  "homepage": "https://github.com/Juampyraccuia/curso-git-tp1#readme"
+}
